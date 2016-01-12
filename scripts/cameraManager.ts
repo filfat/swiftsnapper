@@ -23,7 +23,7 @@
                         mediaSettings.videoDeviceId = devices[1].id;
                     } else {
                         video.classList.remove('FrontFacing');
-                        rotationValue = Capture.VideoRotation.clockwise270Degrees;
+                        rotationValue = Capture.VideoRotation.none;
 
                         mediaSettings.videoDeviceId = devices[0].id;
                     }
