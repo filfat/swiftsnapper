@@ -1,0 +1,35 @@
+﻿{
+  "app": {
+    "name": "SwiftSnapper",
+    "lang":  "nb_NO"
+  },
+
+  "views": {
+
+    "account": {
+      "logIn": "Logg inn",
+      "signUp": "Ny bruker",
+
+      "logInView": {
+        "username": "Brukernavn",
+        "password": "Passord",
+        "wrongUsernameOrPassword": "Feil brukernavn eller passord!",
+        "userNotValid": "Ugyldig bruker!"
+      }
+    },
+
+    "overview": {
+      "views": {
+        "stories": {
+          "title": "Historier",
+          "myStory": "Min historie",
+          "explore":  "Utforsk"
+        }
+      }
+    },
+
+    "settings": {
+
+    }
+  }
+}
