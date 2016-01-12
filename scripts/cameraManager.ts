@@ -18,7 +18,7 @@
                 if (devices.length > 0) {
                     if (conf.frontFacing && devices.length > 1) {
                         video.classList.add('FrontFacing');
-                        rotationValue = Capture.VideoRotation.clockwise90Degrees;
+                        rotationValue = Capture.VideoRotation.none;
 
                         mediaSettings.videoDeviceId = devices[1].id;
                     } else {
