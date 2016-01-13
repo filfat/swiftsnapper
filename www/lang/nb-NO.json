@@ -14,7 +14,9 @@
         "username": "Brukernavn",
         "password": "Passord",
         "wrongUsernameOrPassword": "Feil brukernavn eller passord!",
-        "userNotValid": "Ugyldig bruker!"
+        "failedToLogIn": "Kunne ikke logge inn",
+        "userNotValid": "Brukernavnet er ikke gyldig!",
+        "loggingIn": "Logger inn..."
       }
     },
 

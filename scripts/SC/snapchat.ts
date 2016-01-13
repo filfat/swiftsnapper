@@ -46,6 +46,16 @@ namespace Snapchat {
         }
 
         /*
+            Get the media for the provided snap
+            (stub)
+        */
+        public GetSnapMedia(snap: Snapchat.Snap) {
+            return new Promise((resolve) => {
+                resolve(null);
+            });
+        }
+
+        /*
             Get a user's SnapTag
             Doesn't work yet.
         */
