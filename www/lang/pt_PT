@@ -1,0 +1,35 @@
+{
+  "app": {
+    "name": "SwiftSnapper",
+    "lang":  "en_US"
+  },
+
+  "views": {
+
+    "account": {
+      "logIn": "Entrar",
+      "signUp": "Registar",
+
+      "logInView": {
+        "username": "Utilizador",
+        "password": "Senha",
+        "wrongUsernameOrPassword": "Utilizador ou senha errada.",
+        "userNotValid": "Utilizador Inválido"
+      }
+    },
+
+    "overview": {
+      "views": {
+        "stories": {
+          "title": "Histórias",
+          "myStory": "Minha História",
+          "explore":  "Explorar"
+        }
+      }
+    },
+
+    "settings": {
+
+    }
+  }
+}
