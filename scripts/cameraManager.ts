@@ -71,6 +71,7 @@
                 if (!camera.enclosureLocation || camera.enclosureLocation.panel === Windows.Devices.Enumeration.Panel.unknown) {
                     // No information on the location of the camera, assume it's an external camera, not integrated on the device
                     externalCamera = true;
+                    oDisplayOrientation = DisplayOrientations.landscape;
                 }
                 else {
                     // Camera is fixed on the device
