@@ -292,10 +292,10 @@ var Snapchat;
             this.SNAPCHAT_HASH_PATTERN = '0001110111101110001111010101111011010001001110011000110001000110';
             this.SNAPCHAT_API_SECRET = 'iEk21fuwZApXlz93750dmW22pw389dPwOk';
             this.SNAPCHAT_API_STATIC_TOKEN = 'm198sOkJEn37DjqZ32lpRu76xmw288xSQ9';
-            this.SNAPCHAT_CLIENT_AUTH_TOKEN = null; //TODO: Use val from http://heroku.casper.io/snapchat/ios/endpointauth 
-            this.SNAPCHAT_CLIENT_TOKEN = null; //TODO: Use from http://heroku.casper.io/snapchat/ios/endpointauth 
+            this.SNAPCHAT_CLIENT_AUTH_TOKEN = null; //TODO: Use val from http://heroku.casper.io/snapchat/ios/endpointauth
+            this.SNAPCHAT_CLIENT_TOKEN = null; //TODO: Use from http://heroku.casper.io/snapchat/ios/endpointauth
             this.SNAPCHAT_AUTH_TOKEN = null;
-            this.SNAPCHAT_UUID = null; //TODO: Use val from http://heroku.casper.io/snapchat/ios/endpointauth 
+            this.SNAPCHAT_UUID = null; //TODO: Use val from http://heroku.casper.io/snapchat/ios/endpointauth
             this.SNAPCHAT_USER_AGENT = null;
             this.SNAPCHAT_VERSION = '9.18.2.0';
             this.CASPER_USER_AGENT = 'Casper/1.5.2.3 (SwiftSnapper; Windows 10; gzip)';
@@ -575,7 +575,9 @@ var Snapchat;
             Get the current user's pending Snapchat feed
         */
         Client.prototype.GetPendingFeed = function () {
-            var Snaps = [], friends = this.AllUpdatesData.conversations_response;
+          var Snaps = [];
+          if(this.AllUpdatesData!=undefined){
+            var friends = this.AllUpdatesData.conversations_response;
             for (var x = 0; x < friends.length; x++) {
                 var snaps = friends[x].pending_received_snaps;
                 for (var n = 0; n < snaps.length; n++) {
@@ -597,6 +599,10 @@ var Snapchat;
             });
             Snaps.reverse();
             return Snaps;
+          }
+          else {
+            return Snaps;
+          }
         };
         /*
             Get the media for the provided snap
