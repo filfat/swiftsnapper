@@ -1,0 +1,43 @@
+{ 
+2   "app": { 
+3     "name": "SwiftSnapper", 
+4     "lang":  "sv-SE" 
+5   }, 
+6 
+ 
+7   "views": { 
+8 
+ 
+9     "account": { 
+10       "logIn": "Logga in", 
+11       "signUp": "Registrera dig", 
+12 
+ 
+13       "logInView": { 
+14         "username": "Användarnamn", 
+15         "password": "Lösenord", 
+16         "wrongUsernameOrPassword": "Felaktigt användarnamn eller lösenord", 
+17         "failedToLogIn":  "Inloggningen misslyckades", 
+18         "userNotValid": "Felaktigt användarnamn", 
+19         "loggingIn": "Loggar in..." 
+20       } 
+21     }, 
+22 
+ 
+23     "overview": { 
+24       "views": { 
+25         "stories": { 
+26           "title": "Storys", 
+27           "myStory": "Min story", 
+28           "explore":  "Utforska" 
+29         } 
+30       } 
+31     }, 
+32 
+ 
+33     "settings": { 
+34 
+ 
+35     } 
+36   } 
+37 } 
