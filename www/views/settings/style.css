@@ -4,6 +4,7 @@
 body {
 	background:#3498db;
 	}
+
 .button1 { 
 	background: #3E74D3;
 	border:0px;
@@ -24,3 +25,11 @@ body {
 	position:absolute;
 	top:75%;
 	}
+.img {
+	background:url(https://camo.githubusercontent.com/414ea9a6569ff3c57981019a675403bf41c7a103/687474703a2f2f692e696d6775722e636f6d2f444472594b4c392e706e67) no-repeat center center center;
+	background-size:cover;
+	width:100%;
+	height:50%;
+	position:absolute;
+	top:0px;
+}
