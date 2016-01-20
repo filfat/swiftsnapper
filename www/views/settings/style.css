@@ -11,6 +11,8 @@ body {
 	height:25%;
 	color:#FFFFFF;
 	font-size:16px;
+	position:absolute;
+	top:50%;
 	}
 .button2{ 
 	background: #3E5CAC;
@@ -19,4 +21,6 @@ body {
 	height:25%;
 	color:#FFFFFF;
 	font-size:16px;
+	position:absolute;
+	top:75%;
 	}
