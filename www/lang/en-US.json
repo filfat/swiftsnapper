@@ -14,7 +14,7 @@
         "username": "Username",
         "password": "Password",
         "wrongUsernameOrPassword": "Wrong username or password!",
-        "failedToLogIn":  "Failed to Log In",
+        "failedToLogIn": "Failed to Log In",
         "userNotValid": "The username you entered is not valid!",
         "loggingIn": "Logging in..."
       }
@@ -25,13 +25,14 @@
         "stories": {
           "title": "Stories",
           "myStory": "My Story",
-          "explore":  "Explore"
+          "explore": "Explore"
         }
       }
     },
 
     "settings": {
-
+      "title": "Settings",
+      "logout": "Logout"
     }
   }
 }

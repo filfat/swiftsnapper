@@ -31,7 +31,8 @@
     },
 
     "settings": {
-
+      "title": "Ayarlar",
+      "logout": "Çıkmak"
     }
   }
 }

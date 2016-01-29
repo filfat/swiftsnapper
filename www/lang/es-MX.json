@@ -23,13 +23,14 @@
         "stories": {
           "title": "Historias",
           "myStory": "Mi Historia",
-          "explore":  "Explorar"
+          "explore": "Explorar"
         }
       }
     },
 
     "settings": {
-
+      "title": "Configuración",
+      "logout": "Salir"
     }
   }
 }

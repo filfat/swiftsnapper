@@ -30,8 +30,9 @@
       }
     },
 
-    "settings": {
-
+     "settings": {
+      "title": "Innstillinger",
+      "logout": "Logge ut"
     }
   }
 }

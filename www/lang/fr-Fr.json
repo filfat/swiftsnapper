@@ -31,7 +31,8 @@
     },
 
     "settings": {
-
+      "title": "Paramètres",
+      "logout": "Déconnecter"
     }
   }
 }

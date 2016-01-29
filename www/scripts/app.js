@@ -1066,17 +1066,20 @@ var swiftsnapper;
     }
     swiftsnapper.onOverviewView = onOverviewView;
     function onSettingsView() {
-        alert('settings view');
-        $('#LogoutBtn').on('click tap', function () {
-            messageManager.alert("Cleared all credentials!", "Cleared Credentials", null);
-            var vault = new Windows.Security.Credentials.PasswordVault();
-            var creds = vault.retrieveAll();
-            for (var i = 0; i < creds.length; ++i) {
-                vault.remove(creds[i]);
-            }
-        });
-        $('#BackBtn').on('click tap', function () {
-            $('body').load('views/overview/index.html');
+        Application.getLanguageStrings(language, function (lang) {
+            var template = Handlebars.compile($("#template").html());
+            $('#PageContent').html(template(lang));
+            $('#LogoutBtn').on('click tap', function () {
+                messageManager.alert("Cleared all credentials!", "Cleared Credentials", null);
+                var vault = new Windows.Security.Credentials.PasswordVault();
+                var creds = vault.retrieveAll();
+                for (var i = 0; i < creds.length; ++i) {
+                    vault.remove(creds[i]);
+                }
+            });
+            $('#BackBtn').on('click tap', function () {
+                $('body').load('views/overview/index.html');
+            });
         });
     }
     swiftsnapper.onSettingsView = onSettingsView;

@@ -22,15 +22,16 @@
     "overview": {
       "views": {
         "stories": {
-          "title": "Stories",
-          "myStory": "My Story",
+          "title": "Historie",
+          "myStory": "Min historie",
           "explore":  "Erkunden"
         }
       }
     },
 
     "settings": {
-
+      "title": "Indstillinger",
+      "logout": "Log ud"
     }
   }
 }

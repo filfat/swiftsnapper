@@ -31,7 +31,8 @@
     },
 
     "settings": {
-
+      "title": "Ustawienia",
+      "logout": "Zaloguj Się"
     }
   }
 }

@@ -1,20 +1,28 @@
 ﻿<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
-        <title>Settings | SwiftSnapper</title>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+    <title>Settings | SwiftSnapper</title>
 
-        <link href="../../css/mdl2.css" rel="stylesheet" />
-        <link href="style.css" rel="stylesheet" />
-    </head>
+    <link href="../../css/mdl2.css" rel="stylesheet" />
+    <link href="views/settings/style.css" rel="stylesheet" />
+</head> 
     <body>
-        <div style="width:20px;height:20px;"></div><br />
-        <button id="LogoutBtn">Logout</button>
-        <button id="BackBtn">Back</button>
+        <div id="PageContent"></div>
+            <script id="template" type="text/x-handlebars-template">
+                <header>
+                    <div class="header" id="SettingsTitle">{{views.settings.title}}</div>
+                    <nav>
+                        <div class="item left"><span class="icon mdl2-scroll-chevron-left-legacy" id="BackBtn"></span></div>
+                    </nav>
+                </header>
+                <button id="LogoutBtn">{{views.settings.logout}}</button>
+            </script>
         <script>
             swiftsnapper.onSettingsView();
         </script>
+
     </body>
 </html>

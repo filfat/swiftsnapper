@@ -31,7 +31,8 @@
     },
 
     "settings": {
-
+      "title": "Ajustes",
+      "logout": "Finalizar la sesión"
     }
   }
 }

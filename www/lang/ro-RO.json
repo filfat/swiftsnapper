@@ -31,7 +31,8 @@
     },
 
     "settings": {
-
+      "title": "Setări",
+      "logout": "Log out" 
     }
   }
 }

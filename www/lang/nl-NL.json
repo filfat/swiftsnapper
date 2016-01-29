@@ -30,7 +30,8 @@
     },
 
     "settings": {
-
+      "title": "Einstellungen",
+      "logout": "Ausloggen"
     }
   }
 }

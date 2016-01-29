@@ -1,11 +1,10 @@
 ﻿{
   "app": {
     "name": "SwiftSnapper",
-    "lang":  "pt-BR"
+    "lang": "pt-BR"
   },
 
   "views": {
-
     "account": {
       "logIn": "Entrar",
       "signUp": "Criar Conta",
@@ -25,13 +24,15 @@
         "stories": {
           "title": "Histórias",
           "myStory": "Minha História",
-          "explore":  "Explorar"
+          "explore": "Explorar"
         }
       }
     },
 
     "settings": {
-
+      "title": "Configurações",
+      "logout": "Deslogar"
     }
   }
 }
+

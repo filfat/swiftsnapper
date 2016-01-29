@@ -40,9 +40,9 @@ Global
 		{98108BF9-0D10-4337-8CA3-B35D0C74048D}.Debug|Windows-AnyCPU.ActiveCfg = Debug|Windows-AnyCPU
 		{98108BF9-0D10-4337-8CA3-B35D0C74048D}.Debug|Windows-AnyCPU.Build.0 = Debug|Windows-AnyCPU
 		{98108BF9-0D10-4337-8CA3-B35D0C74048D}.Debug|Windows-AnyCPU.Deploy.0 = Debug|Windows-AnyCPU
-		{98108BF9-0D10-4337-8CA3-B35D0C74048D}.Debug|Windows-ARM.ActiveCfg = Debug|Windows-x64
-		{98108BF9-0D10-4337-8CA3-B35D0C74048D}.Debug|Windows-ARM.Build.0 = Debug|Windows-x64
-		{98108BF9-0D10-4337-8CA3-B35D0C74048D}.Debug|Windows-ARM.Deploy.0 = Debug|Windows-x64
+		{98108BF9-0D10-4337-8CA3-B35D0C74048D}.Debug|Windows-ARM.ActiveCfg = Debug|Windows-ARM
+		{98108BF9-0D10-4337-8CA3-B35D0C74048D}.Debug|Windows-ARM.Build.0 = Debug|Windows-ARM
+		{98108BF9-0D10-4337-8CA3-B35D0C74048D}.Debug|Windows-ARM.Deploy.0 = Debug|Windows-ARM
 		{98108BF9-0D10-4337-8CA3-B35D0C74048D}.Debug|Windows-x64.ActiveCfg = Debug|Windows-x64
 		{98108BF9-0D10-4337-8CA3-B35D0C74048D}.Debug|Windows-x64.Build.0 = Debug|Windows-x64
 		{98108BF9-0D10-4337-8CA3-B35D0C74048D}.Debug|Windows-x64.Deploy.0 = Debug|Windows-x64

@@ -30,8 +30,9 @@
       }
     },
 
-    "settings": {
-
+     "settings": {
+      "title": "Configurações",
+      "logout": "Sair"
     }
   }
 }
